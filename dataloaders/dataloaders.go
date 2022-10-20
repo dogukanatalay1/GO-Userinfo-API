@@ -2,21 +2,21 @@ package dataloaders
 
 import (
 	"encoding/json"
-	m "../models"
+	"https://github.com/dogukanatalay1/GO-Userinfo-API/tree/master/Models"
 	util "../utils"
 )
 
-func LoadUsers() []m.User {
+func LoadUsers() []User {
   bytes, _ := util.ReadFile("../json/users.json")
-  var users []m.User
+  var users []User
   json.Unmarshal([]byte(bytes), &users)
   return users
 }
 
-func LoadInterests() []m.Interest {
+func LoadInterests() []Interest {
 
 }
 
-func LoadInterestMappings() []m.InterestMapping {
+func LoadInterestMappings() []InterestMapping {
 
 }
