@@ -1,14 +1,6 @@
 package models
 
 type InterestMapping struct {
-  UserID int
-  InterestID int
+	UserID     int
+	InterestID int
 }
-
-
-
-
-
-
-
-
