@@ -13,3 +13,7 @@ func ReadFile(fileName string) (string, error) {
   CheckError(err)
   return string(bytes), nil
 }
+
+
+
+
